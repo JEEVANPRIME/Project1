@@ -1,0 +1,12 @@
+package com.CombineTopic;
+
+class Employee{
+	
+}
+
+public class MainClassEmp {
+
+	public static void main(String[] args) {
+		
+	}
+}

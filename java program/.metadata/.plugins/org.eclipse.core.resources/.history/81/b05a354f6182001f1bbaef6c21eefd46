@@ -1,0 +1,39 @@
+package com.CombineTopic;
+
+class Listing{
+	Object[] arr;
+	int size;
+	public Listing() {
+		arr=new Object[10];
+		size=0;
+	}
+	
+	void resize() {
+		int x=size*2;
+		Object[] newArr=new Object[x];
+		System.arraycopy(arr, 0, newArr, 0, arr.length);
+		arr=newArr;
+	}
+	
+	void add(Object obj) {
+		if(size>=arr.length) {
+			resize();
+		}
+		arr[size++]=obj;
+	}
+	
+	Object remove(int index) {
+		Object removed=arr[index];
+		arr[index]=null;
+		System.arraycopy(arr, index+1, arr, index, arr.length-index-1);
+	}
+	
+	
+}
+
+public class ShoesStore {
+
+	public static void main(String[] args) {
+		
+	}
+}

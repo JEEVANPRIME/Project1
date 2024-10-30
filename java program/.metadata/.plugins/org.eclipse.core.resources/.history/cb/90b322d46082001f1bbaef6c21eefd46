@@ -1,0 +1,18 @@
+package com.CombineTopic;
+
+class Listing{
+	Object[] arr;
+	int size;
+	public Listing() {
+		
+	}
+	
+	
+}
+
+public class ShoesStore {
+
+	public static void main(String[] args) {
+		
+	}
+}

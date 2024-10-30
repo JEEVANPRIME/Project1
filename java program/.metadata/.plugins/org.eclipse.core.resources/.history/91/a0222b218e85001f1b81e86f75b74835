@@ -1,0 +1,28 @@
+package com.CombineTopic;
+
+final class Emp1 {
+	int id;
+	String name;
+	double sal;
+
+	public Emp1(int id, String name, double sal) {
+//		super();
+		this.id = id;
+		this.name = name;
+		this.sal = sal;
+	}
+
+	@Override
+	public String toString() {
+		return "Emp1 [id=" + id + ", name=" + name + ", sal=" + sal + "]";
+	}
+}
+
+public class MainClassEmployee {
+
+	public static void main(String[] args) {
+		Emp1 e1=new Emp1(5, "Umesh", 7.7);
+		Emp1 e2=new Emp1(1, "Ramesh", 9.9);
+		Emp1 e3=new Emp1(3, "Suresh", 5.3);
+	}
+}
